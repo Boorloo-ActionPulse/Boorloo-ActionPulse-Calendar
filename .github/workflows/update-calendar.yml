@@ -1,5 +1,8 @@
 name: Build & Publish Calendar
 
+permissions:
+  contents: write
+
 on:
   schedule:
     - cron:  '0 0 * * *'         # daily at midnight UTC

@@ -1,0 +1,44 @@
+name: Build & Publish Calendar
+
+on:
+  schedule:
+    - cron:  '0 0 * * *'         # daily at midnight UTC
+  workflow_dispatch:            # manual trigger
+  push:
+    paths:
+      - 'python/generate_calendar.py'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: pip install gspread google-auth ics pytz
+
+      - name: Inject Google credentials
+        run: |
+          mkdir -p python
+          echo "$GOOGLE_SA_KEY" > python/boorloo-actionpulse-calendar-42fd39789b53.json
+        env:
+          GOOGLE_SA_KEY: ${{ secrets.GOOGLE_SA_KEY }}
+
+      - name: Generate calendar
+        run: python python/generate_calendar.py
+
+      - name: Deploy to gh-pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: gh-pages
+          publish_dir: .
+          user_name: 'github-actions[bot]'
+          user_email: 'github-actions[bot]@users.noreply.github.com'

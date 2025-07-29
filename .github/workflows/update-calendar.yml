@@ -3,10 +3,14 @@ name: Build & Publish Calendar
 permissions:
   contents: write
 
+concurrency:
+  group: build-calendar
+  cancel-in-progress: true
+
 on:
   schedule:
-    - cron:  '0 0 * * *'         # daily at midnight UTC
-  workflow_dispatch:            # manual trigger
+    - cron:  '* * * * *'    # every minute UTC
+  workflow_dispatch:
   push:
     paths:
       - 'python/generate_calendar.py'

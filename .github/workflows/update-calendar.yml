@@ -43,7 +43,7 @@ jobs:
 
       - name: Copy README into deploy folder
         run: |
-          cp README.md deploy/README.md
+          cp index.html deploy/index.html
 
       - name: Deploy to gh-pages
         uses: peaceiris/actions-gh-pages@v4

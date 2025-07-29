@@ -41,6 +41,10 @@ jobs:
       - name: Generate calendar
         run: python python/generate_calendar.py
 
+      - name: Copy README into deploy folder
+        run: |
+          cp README.md deploy/README.md
+
       - name: Deploy to gh-pages
         uses: peaceiris/actions-gh-pages@v4
         with:

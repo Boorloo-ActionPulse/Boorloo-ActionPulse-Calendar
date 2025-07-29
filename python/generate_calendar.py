@@ -9,10 +9,10 @@ import pytz
 import os
 
 # === CONFIGURATION ===
-SERVICE_ACCOUNT_FILE = "boorloo-actionpulse-calendar-42fd39789b53.json"
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+SERVICE_ACCOUNT_FILE = os.path.join(SCRIPT_DIR, "boorloo-actionpulse-calendar-42fd39789b53.json")
 SPREADSHEET_NAME = "BoorlooActionPulseCalendar"
 TIMEZONE = "Australia/Perth"
-SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 REPO_ROOT = os.path.abspath(os.path.join(SCRIPT_DIR, os.pardir))
 OUTPUT_DIR  = os.path.join(REPO_ROOT, "calendar")
 OUTPUT_FILE = os.path.join(OUTPUT_DIR, "calendar.ics")

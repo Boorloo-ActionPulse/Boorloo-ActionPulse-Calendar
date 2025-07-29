@@ -14,9 +14,9 @@ SERVICE_ACCOUNT_FILE = os.path.join(SCRIPT_DIR, "boorloo-actionpulse-calendar-42
 SPREADSHEET_NAME = "BoorlooActionPulseCalendar"
 TIMEZONE = "Australia/Perth"
 REPO_ROOT = os.path.abspath(os.path.join(SCRIPT_DIR, os.pardir))
-OUTPUT_DIR  = os.path.join(REPO_ROOT, "calendar")
-OUTPUT_FILE = os.path.join(OUTPUT_DIR, "calendar.ics")
 ERROR_LOG_FILE = "generate_calendar_errors.log"
+DEPLOY_DIR = os.path.join(REPO_ROOT, "deploy")
+os.makedirs(DEPLOY_DIR, exist_ok=True)
 
 # === SETUP LOGGING ===
 logging.basicConfig(filename=ERROR_LOG_FILE, level=logging.WARNING,
@@ -98,10 +98,8 @@ import re
 raw = re.sub(r'\n{3,}', r'\n\n', raw)
 raw = raw.replace('\n', '\r\n')
 
-# make sure dir exists
-os.makedirs(OUTPUT_DIR, exist_ok=True)
+deploy_path = os.path.join(DEPLOY_DIR, "calendar.ics")
+with open(deploy_path, "w", newline="") as f:
+    f.write(raw)  # your post‑processed ICS text
 
-with open(OUTPUT_FILE, "w", newline="") as f:
-    f.write(raw)   # or calendar.serialize()
-
-print(f"ICS file written to {OUTPUT_FILE}")
+print(f"ICS file written to {deploy_path}")

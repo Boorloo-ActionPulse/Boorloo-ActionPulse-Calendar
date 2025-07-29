@@ -9,7 +9,7 @@ concurrency:
 
 on:
   schedule:
-    - cron:  '* * * * *'    # every minute UTC
+    - cron: '*/5 * * * *'
   workflow_dispatch:
   push:
     paths:

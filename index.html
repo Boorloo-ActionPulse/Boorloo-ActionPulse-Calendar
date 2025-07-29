@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Subscribe to the Boorloo ActionPulse Events Calendar</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          sans-serif;
+        background: #f9f9f9;
+        color: #333;
+        line-height: 1.6;
+      }
+      header {
+        background: #1a73e8;
+        color: white;
+        padding: 2rem 1rem;
+        text-align: center;
+      }
+      header h1 {
+        margin: 0;
+        font-size: 2rem;
+      }
+      main {
+        max-width: 800px;
+        margin: 2rem auto;
+        padding: 0 1rem;
+      }
+      .calendar-url {
+        background: #e8f0fe;
+        border-left: 4px solid #1a73e8;
+        padding: 1rem;
+        margin: 1rem 0 2rem;
+        font-weight: bold;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+      .calendar-url a {
+        color: #1a73e8;
+        text-decoration: none;
+        word-break: break-all;
+      }
+      .calendar-url button {
+        background: #1a73e8;
+        color: white;
+        border: none;
+        padding: 0.5rem 1rem;
+        font-size: 0.9rem;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      .calendar-url button:hover {
+        background: #1669c1;
+      }
+      section {
+        margin-bottom: 2rem;
+      }
+      section h2 {
+        border-bottom: 2px solid #ddd;
+        padding-bottom: 0.5rem;
+        margin-bottom: 1rem;
+        color: #1a73e8;
+      }
+      ol,
+      ul {
+        margin: 0 0 1rem 1.5rem;
+      }
+      a {
+        color: #1a73e8;
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+      footer {
+        text-align: center;
+        font-size: 0.9rem;
+        color: #666;
+        margin: 4rem 0 1rem;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Subscribe to the Boorloo ActionPulse Events Calendar</h1>
+    </header>
+
+    <main>
+      <p>
+        Stay up‑to‑date with all activist events happening in Perth by
+        subscribing to our live calendar. Whenever we post a new event on
+        Instagram, it’ll automatically appear in your calendar app.
+      </p>
+
+      <div class="calendar-url">
+        <div>
+          Calendar URL:<br />
+          <a
+            id="calendar-link"
+            href="http://boorloo-actionpulse.github.io/Boorloo-ActionPulse-Calendar/calendar.ics"
+            target="_blank"
+          >
+            http://boorloo-actionpulse.github.io/Boorloo-ActionPulse-Calendar/calendar.ics
+          </a>
+        </div>
+        <button id="copy-btn">Copy Link</button>
+      </div>
+
+      <section id="ios">
+        <h2>iOS (iPhone / iPad)</h2>
+        <ol>
+          <li>
+            Open <strong>Settings</strong> ▶︎ <strong>Calendar</strong> ▶︎
+            <strong>Accounts</strong> ▶︎ <strong>Add Account</strong> ▶︎
+            <strong>Other</strong> ▶︎ <strong>Add Subscribed Calendar</strong>.
+          </li>
+          <li>Enter the calendar URL and tap <strong>Next</strong>.</li>
+          <li>
+            Adjust <strong>Remote Alerts</strong> and
+            <strong>Auto‑Refresh</strong> if shown.
+          </li>
+          <li>Tap <strong>Save</strong>. It appears in your Calendar app.</li>
+        </ol>
+      </section>
+
+      <section id="android">
+        <h2>Android</h2>
+        <p>
+          Most built‑in calendar apps don’t support ICS subscriptions directly.
+          You can:
+        </p>
+        <ul>
+          <li>
+            <strong>Add to Google Calendar</strong> (see below) and sync your
+            Google account to your device.
+          </li>
+          <li>
+            Or install a third‑party app (e.g. ICSx⁵) and subscribe using the
+            URL.
+          </li>
+        </ul>
+      </section>
+
+      <section id="google">
+        <h2>Google Calendar (Web)</h2>
+        <ol>
+          <li>
+            Open
+            <a href="https://calendar.google.com" target="_blank"
+              >Google Calendar</a
+            >.
+          </li>
+          <li>
+            On the left, click <strong>Add other calendars</strong> ▶︎
+            <strong>From URL</strong>.
+          </li>
+          <li>Paste the calendar URL above.</li>
+          <li>Click <strong>Add calendar</strong>.</li>
+          <li>
+            It will appear under <strong>Other calendars</strong> and update
+            automatically.
+          </li>
+        </ol>
+      </section>
+
+      <section id="apple">
+        <h2>Apple Calendar (macOS)</h2>
+        <ol>
+          <li>
+            In <strong>Calendar</strong>, choose <strong>File</strong> ▶︎
+            <strong>New Calendar Subscription…</strong>
+          </li>
+          <li>Paste the calendar URL and click <strong>Subscribe</strong>.</li>
+          <li>
+            In the subscription dialog:
+            <ul>
+              <li>
+                <strong>Auto-refresh</strong>: Choose how often (e.g. every
+                hour).
+              </li>
+              <li>
+                <strong>Alerts</strong>, <strong>Attachments</strong>, etc., as
+                you prefer.
+              </li>
+            </ul>
+          </li>
+          <li>
+            Click <strong>OK</strong>. The calendar shows up in your list and
+            stays in sync.
+          </li>
+        </ol>
+      </section>
+
+      <section id="outlook">
+        <h2>Microsoft Outlook (Windows &amp; Web)</h2>
+
+        <h3>Outlook Desktop</h3>
+        <ol>
+          <li>
+            Go to <strong>Home</strong> ▶︎ <strong>Open Calendar</strong> ▶︎
+            <strong>From Internet…</strong>
+          </li>
+          <li>Paste the calendar URL and click <strong>OK</strong>.</li>
+          <li>Confirm <strong>Yes</strong> when prompted to subscribe.</li>
+          <li>The feed appears under <strong>Other Calendars</strong>.</li>
+        </ol>
+
+        <h3>Outlook on the Web (Office 365)</h3>
+        <ol>
+          <li>
+            Click <strong>Add calendar</strong> ▶︎
+            <strong>Subscribe from web</strong>.
+          </li>
+          <li>Paste the calendar URL.</li>
+          <li>
+            Name it (e.g. “ActionPulse Events”) and click
+            <strong>Import</strong>.
+          </li>
+        </ol>
+      </section>
+
+      <section id="refresh">
+        <h2>Refresh &amp; Notifications</h2>
+        <ul>
+          <li>
+            <strong>Refresh interval</strong> depends on your app (often every
+            few hours).
+          </li>
+          <li>
+            To get alerts for new events, enable notifications in your calendar
+            settings.
+          </li>
+        </ul>
+      </section>
+
+      <section id="help">
+        <h2>Questions or Issues?</h2>
+        <p>
+          If you run into any trouble subscribing, DM us on Instagram
+          <a href="https://instagram.com/boorloo.actionpulse" target="_blank"
+            >@Boorloo.ActionPulse</a
+          >. We’re here to help!
+        </p>
+      </section>
+    </main>
+
+    <footer>
+      &copy; 2025 Boorloo ActionPulse – Perth activist events calendar
+    </footer>
+
+    <script>
+      document
+        .getElementById("copy-btn")
+        .addEventListener("click", function () {
+          const url = document.getElementById("calendar-link").href;
+          navigator.clipboard
+            .writeText(url)
+            .then(() => {
+              this.textContent = "Copied!";
+              setTimeout(() => (this.textContent = "Copy Link"), 2000);
+            })
+            .catch(() => {
+              alert("Failed to copy, please copy manually.");
+            });
+        });
+    </script>
+  </body>
+</html>

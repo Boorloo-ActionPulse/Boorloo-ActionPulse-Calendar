@@ -4,29 +4,29 @@ VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 
 BEGIN:VEVENT
-DTSTAMP:20250810T114347Z
-CREATED:20250810T114347Z
-LAST-MODIFIED:20250810T114347Z
-DESCRIPTION:The Albanese government has been caught out again lying about their arms trade with Israel.\nDespite claims to the contrary\, an FOI request has revealed that it signed and vetted all stages of a $900 million contract with Israeli arms manufacturer Elbit Systems\, which manufactures drones used to kill Palestinians in Gaza.\nSeeking to divert attention from its complicity with Israel’s Gaza genocide\, the Albanese government has backed a report by arch Zionist and antisemitism envoy Jillian Segal that proposed a widespread crackdown on protests opposing Israel’s Gaza genocide.\nThe Special Envoy’s Plan to Combat Antisemitism proposes that all levels of government adopt the widely discredited IHRA definition of antisemitism\, which has been used to silence legitimate criticism of Israel and Zionism.\nIt advocates surveillance\, censorship\, and punitive control over the funding of cultural and educational institutions: measures straight out of Trump’s authoritarian playbook.\nWe call on the Australian government to:\n– repudiate the Special Envoy’s Plan\n– sack Jillian Segal\n– implement sanctions on Israel\, including a comprehensive arms embargo.
-DTEND:20250802T060000Z
-LOCATION:Forrest Place\nForrest Pl\, Perth WA 6000
-DTSTART:20250802T040000Z
-SUMMARY:We will not be silenced! End the genocide!
-UID:4a000fbe-7ad8-459a-8292-8cc7ce7e1ecd@boorloo-actionpulse.org
-URL:https://fopwa.org/events/we-will-not-be-silenced-end-the-genocide/
-END:VEVENT
-
-BEGIN:VEVENT
-DTSTAMP:20250810T114347Z
-CREATED:20250810T114347Z
-LAST-MODIFIED:20250810T114347Z
+DTSTAMP:20250810T115235Z
+CREATED:20250810T115235Z
+LAST-MODIFIED:20250810T115235Z
 DESCRIPTION:Come help us this Thursday to kick start and promote the protest against major military conference Curtin is sponsoring!! and demand Curtin to cut ties to militarism and war for good - the activist meeting is this Thursday 1pm at club HQ!!\n\nCurtin is sponsoring a major weapons conference right in the CBD! and Students for Palestine is going to protest it!! these weapons companies including Lockheed Martin that Curtin continues to have ties with — are directly involved in facilitating Israel’s genocide in Gaza!!
 DTEND:20250731T070000Z
 LOCATION:Club HQ\n
 DTSTART:20250731T050000Z
 SUMMARY:Students for Palestine Campaign Meeting
-UID:9686a714-3228-490e-a164-7684e003ff2e@boorloo-actionpulse.org
+UID:0ad6fb40-6443-4463-af53-295068076411@boorloo-actionpulse.org
 URL:https://www.instagram.com/p/DMrtoh4TgKc/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20250810T115235Z
+CREATED:20250810T115235Z
+LAST-MODIFIED:20250810T115235Z
+DESCRIPTION:The Albanese government has been caught out again lying about their arms trade with Israel.\nDespite claims to the contrary\, an FOI request has revealed that it signed and vetted all stages of a $900 million contract with Israeli arms manufacturer Elbit Systems\, which manufactures drones used to kill Palestinians in Gaza.\nSeeking to divert attention from its complicity with Israel’s Gaza genocide\, the Albanese government has backed a report by arch Zionist and antisemitism envoy Jillian Segal that proposed a widespread crackdown on protests opposing Israel’s Gaza genocide.\nThe Special Envoy’s Plan to Combat Antisemitism proposes that all levels of government adopt the widely discredited IHRA definition of antisemitism\, which has been used to silence legitimate criticism of Israel and Zionism.\nIt advocates surveillance\, censorship\, and punitive control over the funding of cultural and educational institutions: measures straight out of Trump’s authoritarian playbook.\nWe call on the Australian government to:\n– repudiate the Special Envoy’s Plan\n– sack Jillian Segal\n– implement sanctions on Israel\, including a comprehensive arms embargo.
+DTEND:20250802T060000Z
+LOCATION:Forrest Place\nForrest Pl\, Perth WA 6000
+DTSTART:20250802T040000Z
+SUMMARY:We will not be silenced! End the genocide!
+UID:6e1ca32d-d6e3-493d-b933-d3b8ecab3cc0@boorloo-actionpulse.org
+URL:https://fopwa.org/events/we-will-not-be-silenced-end-the-genocide/
 END:VEVENT
 
 END:VCALENDAR

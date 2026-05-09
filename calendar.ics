@@ -4,55 +4,55 @@ VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 
 BEGIN:VEVENT
-DTSTAMP:20260509T140107Z
-CREATED:20260509T140107Z
-LAST-MODIFIED:20260509T140107Z
-DESCRIPTION:Come help us this Thursday to kick start and promote the protest against major military conference Curtin is sponsoring!! and demand Curtin to cut ties to militarism and war for good - the activist meeting is this Thursday 1pm at club HQ!!\n\nCurtin is sponsoring a major weapons conference right in the CBD! and Students for Palestine is going to protest it!! these weapons companies including Lockheed Martin that Curtin continues to have ties with — are directly involved in facilitating Israel’s genocide in Gaza!!
-DTEND:20250731T070000Z
-LOCATION:Club HQ\n
-DTSTART:20250731T050000Z
-SUMMARY:Students for Palestine Campaign Meeting
-UID:91b018f9-d86f-41b0-9801-5ead2333d752@boorloo-actionpulse.org
-URL:https://www.instagram.com/p/DMrtoh4TgKc/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
-END:VEVENT
-
-BEGIN:VEVENT
-DTSTAMP:20260509T140107Z
-CREATED:20260509T140107Z
-LAST-MODIFIED:20260509T140107Z
-DESCRIPTION:Israel’s ongoing blockade of Gaza has created a devastating hunger crisis\, putting over 320\,000 children at risk of acute malnutrition and leaving 40\,000 infants at risk of imminent death.\nThe deliberate starvation of 2.3 million people has pushed the Strip to the brink of collapse.\nDespite mounting public pressure\, the Australian government has failed to take meaningful action.\nOur government continues to allow shipments of military supplies to Israel\, including a shipment of F-35 parts just last month\, and has not imposed sanctions despite the clear violations of international law and perpetration of war crimes.\nFollowing the massive March for Humanity across the Sydney Harbour Bridge on August 3\, Palestine solidarity groups across Australia have called for a nationwide march on August 24.\nThe rallies are demanding an end to the starvation and genocide\, and are calling on the Australian government to impose sanctions on Israel and enforce a two-way arms embargo.\nJoin us in Perth on Sunday August 24\, 12 noon at Forrest Place. We will hear from speakers and march at 1pm to Hyde Park.
-DTEND:20250824T060000Z
-LOCATION:Forrest Place\nForrest Pl\, Perth WA 6000
-DTSTART:20250824T040000Z
-SUMMARY:National March for Palestine (Perth): Save Gaza\, Sanctions Now!
-UID:2f21321f-aa4a-4de4-aa89-cd6cb6342d72@boorloo-actionpulse.org
-URL:https://fopwa.org/events/national-march-for-palestine-perth-save-gaza-sanctions-now/
-END:VEVENT
-
-BEGIN:VEVENT
-DTSTAMP:20260509T140107Z
-CREATED:20260509T140107Z
-LAST-MODIFIED:20260509T140107Z
+DTSTAMP:20260509T150155Z
+CREATED:20260509T150155Z
+LAST-MODIFIED:20260509T150155Z
 DESCRIPTION:Reminder to please join us for a short\, snappy protest to oppose AUKUS\, the nuclear creep and militarisation of our universities at this Australian Nuclear Submarine Conference.\nOur government is 'selling us out' to the imperialist US and UK\, joining in on the China fear mongering perpetuated by the US - putting our health\, safety and environment at risk.\nNuclear is Never Safe!\nConference sponsors include Defence West\, Curtin University and weapons companies implicated in the genocide in Palestine\, Babcock\, L3 Harris and Raytheon.\nConference Speakers include the ASA DG\, Jonathan Mead\; Director\, National Resilience & Security Program Officer and the Chief Security Officer (CSO)at Curtin University\, Gary Hale\; with Richard Marles tbc.\nWe have banners and placards - we just need you\, your hands and voices.\nHope to see you there!\nFor further conference details see https:// www.submarineinstitute.com/sia-conferences/program.html
 DTEND:20250819T010000Z
 LOCATION:Pan Pacific Perth\n207 Adelaide Tce
 DTSTART:20250819T000000Z
 SUMMARY:Protest Nuclear Submarines in Australia
-UID:155380a2-aff3-4870-a008-d01a25ecae12@boorloo-actionpulse.org
+UID:bc6f81a1-f617-468b-9a9d-7fb111e79805@boorloo-actionpulse.org
 URL:https://www.instagram.com/p/DNanOpvhEvo/?igsh=MWdkOHVmN2RkbWEzcg==
 END:VEVENT
 
 BEGIN:VEVENT
-DTSTAMP:20260509T140107Z
-CREATED:20260509T140107Z
-LAST-MODIFIED:20260509T140107Z
+DTSTAMP:20260509T150155Z
+CREATED:20260509T150155Z
+LAST-MODIFIED:20260509T150155Z
 DESCRIPTION:The Albanese government has been caught out again lying about their arms trade with Israel.\nDespite claims to the contrary\, an FOI request has revealed that it signed and vetted all stages of a $900 million contract with Israeli arms manufacturer Elbit Systems\, which manufactures drones used to kill Palestinians in Gaza.\nSeeking to divert attention from its complicity with Israel’s Gaza genocide\, the Albanese government has backed a report by arch Zionist and antisemitism envoy Jillian Segal that proposed a widespread crackdown on protests opposing Israel’s Gaza genocide.\nThe Special Envoy’s Plan to Combat Antisemitism proposes that all levels of government adopt the widely discredited IHRA definition of antisemitism\, which has been used to silence legitimate criticism of Israel and Zionism.\nIt advocates surveillance\, censorship\, and punitive control over the funding of cultural and educational institutions: measures straight out of Trump’s authoritarian playbook.\nWe call on the Australian government to:\n– repudiate the Special Envoy’s Plan\n– sack Jillian Segal\n– implement sanctions on Israel\, including a comprehensive arms embargo.
 DTEND:20250802T060000Z
 LOCATION:Forrest Place\nForrest Pl\, Perth WA 6000
 DTSTART:20250802T040000Z
 SUMMARY:We will not be silenced! End the genocide!
-UID:c4314493-a6d9-4188-8e01-eb7b596b0fa2@boorloo-actionpulse.org
+UID:4ab476d0-ec5f-4bee-a0d6-08962d948bd6@boorloo-actionpulse.org
 URL:https://fopwa.org/events/we-will-not-be-silenced-end-the-genocide/
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20260509T150155Z
+CREATED:20260509T150155Z
+LAST-MODIFIED:20260509T150155Z
+DESCRIPTION:Israel’s ongoing blockade of Gaza has created a devastating hunger crisis\, putting over 320\,000 children at risk of acute malnutrition and leaving 40\,000 infants at risk of imminent death.\nThe deliberate starvation of 2.3 million people has pushed the Strip to the brink of collapse.\nDespite mounting public pressure\, the Australian government has failed to take meaningful action.\nOur government continues to allow shipments of military supplies to Israel\, including a shipment of F-35 parts just last month\, and has not imposed sanctions despite the clear violations of international law and perpetration of war crimes.\nFollowing the massive March for Humanity across the Sydney Harbour Bridge on August 3\, Palestine solidarity groups across Australia have called for a nationwide march on August 24.\nThe rallies are demanding an end to the starvation and genocide\, and are calling on the Australian government to impose sanctions on Israel and enforce a two-way arms embargo.\nJoin us in Perth on Sunday August 24\, 12 noon at Forrest Place. We will hear from speakers and march at 1pm to Hyde Park.
+DTEND:20250824T060000Z
+LOCATION:Forrest Place\nForrest Pl\, Perth WA 6000
+DTSTART:20250824T040000Z
+SUMMARY:National March for Palestine (Perth): Save Gaza\, Sanctions Now!
+UID:60aadaf1-bb9a-43e5-8b21-cf567357dc51@boorloo-actionpulse.org
+URL:https://fopwa.org/events/national-march-for-palestine-perth-save-gaza-sanctions-now/
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20260509T150155Z
+CREATED:20260509T150155Z
+LAST-MODIFIED:20260509T150155Z
+DESCRIPTION:Come help us this Thursday to kick start and promote the protest against major military conference Curtin is sponsoring!! and demand Curtin to cut ties to militarism and war for good - the activist meeting is this Thursday 1pm at club HQ!!\n\nCurtin is sponsoring a major weapons conference right in the CBD! and Students for Palestine is going to protest it!! these weapons companies including Lockheed Martin that Curtin continues to have ties with — are directly involved in facilitating Israel’s genocide in Gaza!!
+DTEND:20250731T070000Z
+LOCATION:Club HQ\n
+DTSTART:20250731T050000Z
+SUMMARY:Students for Palestine Campaign Meeting
+UID:fcd673c9-2a71-4a8c-a32f-77940b4d7de6@boorloo-actionpulse.org
+URL:https://www.instagram.com/p/DMrtoh4TgKc/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
 END:VEVENT
 
 END:VCALENDAR
